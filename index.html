@@ -1,1 +1,57 @@
-페이징 테스트
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <style>
+        * { 
+            position: absolute; 
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        #m_mp {
+           	position: relative; 
+           	width:100%;
+			margin-top: 30%;
+        } 
+
+        #m_mp .m_mp {
+          	width:60%;
+			left: 20%;
+        } 
+		
+        #m_midi {
+           	position: relative; 
+           	width:100%;
+			margin-top: 40%;
+        } 
+		
+		#m_midi .m_midi{
+           	position: relative; 
+           	width:60%;
+			left: 20%;
+        }
+    </style>
+
+    <script src="src/content.js"></script>
+    <meta charset="UTF-8">
+    <title>AI뮤지션 음악파일 다운로드</title>
+</head>
+
+<body onload="Load()">
+    <div id="main">
+        <img src="img/bg.png"/>
+        <div id="m_mp">
+            <input type="image" src="img/mp3_button.png" onclick="OnCreateMp();"  class="m_mp" />
+        </div>-->
+        <div id="m_midi">
+			<input type="image" src="img/midi_button.png" 	
+				   onclick="OnCreateMid();" class="m_midi" />
+            
+        </div>
+    </div>
+</body>
+
+</html>
