@@ -18,14 +18,14 @@ function Load(){
 
 
 function OnCreateMp(){
-	var t_u="https://"+fileUrl.replace("%fileName%","&id="+mpFileName);
+	var t_u="https://"+fileUrl.replace("%fileName%",mpFileName);
 	//alert(t_u)
 	location.href=t_u;
 }
 
 
 function OnCreateMid(){
-	var t_u="https://"+fileUrl.replace("%fileName%","&id="+midFileName);
+	var t_u="https://"+fileUrl.replace("%fileName%",midFileName);
 	//alert(t_u)
 	location.href=t_u;
 }
