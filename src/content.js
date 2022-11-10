@@ -12,8 +12,10 @@ function Load(){
 	fileUrl=urlParams.get('fileUrl');
 	console.log(mpFileName);
 	console.log(midFileName);
-    console.log(fileUrl);
-	
+    	console.log(fileUrl);
+	if(midFileName=="%midFileName%"){
+		document.getElementById("m_midi").style.display = "";
+	}	
 }
 
 
