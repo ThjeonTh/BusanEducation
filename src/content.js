@@ -15,7 +15,7 @@ function Load(){
     	console.log(fileUrl);
 	if(midFileName=="%midFileName%"){
 		console.log("m_midi hide");
-		document.getElementById("m_midi").style.display = "";
+		document.getElementById("m_midi").style.display = "none";
 	}	
 }
 
